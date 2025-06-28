@@ -72,8 +72,6 @@ checkbox_frame.pack(pady=5)
 number_var = tk.BooleanVar()
 special_var = tk.BooleanVar()
 
-# tk.Checkbutton(root, text="Includes numbers", variable=number_var, bg="#f5f5f5").pack()
-# tk.Checkbutton(root, text="Include special characters", variable=special_var, bg="#f5f5f5").pack()
 cb1 = tk.Checkbutton(
     checkbox_frame,
     text="Include numbers",
